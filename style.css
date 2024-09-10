@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logindiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: #3a3a96;
+    padding: 10px 20px 24px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.box{
+    height: 40px;
+    border-radius: 5px;
+    width: 350px;
+}
+
+input{
+    outline: 1px solid #7070ff;
+    border: 0;
+}
+
+.btn1{
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    background-color: #7ff0ff;
+    transition: background 2s;
+}
+
+.emailbox{
+    margin: 5px;
+}
+
+.btn1:hover{
+    background: #ffff;
+}
+
+body{
+    background-color: #7070ff;
+}
